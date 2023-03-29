@@ -10,9 +10,11 @@ package ArgentinaProgramaV001;
 public class Principal {
 
 	public static void main(String[] args) {
-		String ResultadosPartidos = "C:\\Users\\Ignacio\\eclipse-workspace\\tpintegrador-g2-clase157-V1-0\\src\\main\\java\\ArgentinaProgramaV001\\Recursos\\ResultadosPartidos.csv";
-		String PronosticosPersonas = "C:\\Users\\Ignacio\\eclipse-workspace\\tpintegrador-g2-clase157-V1-0\\src\\main\\java\\ArgentinaProgramaV001\\Recursos\\PronosticosPersonas.csv";		
-		String Pronostico = "C:\\Users\\Ignacio\\eclipse-workspace\\tpintegrador-g2-clase157-V1-0\\src\\main\\java\\ArgentinaProgramaV001\\Recursos\\Pronostico.csv";
+		String numArch ="3";
+		String ResultadosPartidos = "C:\\Users\\Ignacio\\eclipse-workspace\\ArgentinaPrograma\\src\\main\\java\\ArgentinaProgramaV001\\Recursos\\" + "ResultadosPartidos" + numArch + ".csv";
+		String PronosticosPersonas = "C:\\Users\\Ignacio\\eclipse-workspace\\ArgentinaPrograma\\src\\main\\java\\ArgentinaProgramaV001\\Recursos\\" + "PronosticosPersonas" + numArch + ".csv";
+		String Pronostico = "C:\\Users\\Ignacio\\eclipse-workspace\\ArgentinaPrograma\\src\\main\\java\\ArgentinaProgramaV001\\Recursos\\" + "PronosticosPersonas" + numArch + ".csv";
+
 //    	Evaluo si hay entrada por args
 		if (args.length == 2 ) {
 			ResultadosPartidos = args[0];
