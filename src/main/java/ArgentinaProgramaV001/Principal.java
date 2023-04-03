@@ -30,13 +30,13 @@ public class Principal {
 		Puntuacion score = new Puntuacion();
 
 //		Resultados
-		System.out.println("      ** -- Tabla de resultados -- **\n");
+		System.out.println("      -- Tabla de resultados --\n");
 		UtilCurso.displayCsv(ResultadosPartidos); // Descomentar para ver tabla resultados
 		UtilCurso.displayMatrix2D(misResultados.evaluaResultado()); // Resultados partidos formato lev
 		System.out.println("--------------------------------------------");
 
 //		Pronósticos
-		System.out.println("       ** -- Tabla de pronósticos -- **\n");	
+		System.out.println("      -- Tabla de pronósticos --\n");	
 		UtilCurso.displayCsv(Pronostico); // Descomentar para ver tabla pronósticos
 		UtilCurso.displayMatrix2D(miPronostico.mostraResultadoPronostico(UtilCurso.fileToMatrix(Pronostico)));
 		System.out.println("--------------------------------------------");
